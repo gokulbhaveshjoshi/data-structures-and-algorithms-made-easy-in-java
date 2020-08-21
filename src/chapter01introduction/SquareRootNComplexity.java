@@ -24,7 +24,7 @@ public class SquareRootNComplexity {
 		int i=1;
 		int sum = 0;
 		while(sum<n){
-			sum = sum + i;
+			sum = sum * i;
 			i++;
 		}
 		return i-1;
