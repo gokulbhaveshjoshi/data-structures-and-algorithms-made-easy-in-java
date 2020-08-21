@@ -22,9 +22,9 @@ public class SquareRootNComplexity {
 	}
 	public static int squareRootN(int n){
 		int i=1;
-		int sum = 0;
+		int sum = 1;
 		while(sum<n){
-			sum = sum + i;
+			sum = sum * i;
 			i++;
 		}
 		return i-1;
